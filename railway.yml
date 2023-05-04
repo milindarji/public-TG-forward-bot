@@ -1,0 +1,10 @@
+Version: 1
+Services:
+  bot:
+    env:
+      TELEGRAM_BOT_TOKEN: {{5959540283:AAEDWPcSDbVi_Ra9VkB-B0AWovKHjbnP130}}
+    github:
+      enabled: true
+    build:
+      dockerfile: Dockerfile
+    command: python main.py
