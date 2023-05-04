@@ -2,7 +2,7 @@ Version: 1
 Services:
   bot:
     env:
-      TELEGRAM_BOT_TOKEN: {{5959540283:AAEDWPcSDbVi_Ra9VkB-B0AWovKHjbnP130}}
+      TELEGRAM_BOT_TOKEN: {SECRET.TELEGRAM_BOT_TOKEN}
     github:
       enabled: true
     build:
